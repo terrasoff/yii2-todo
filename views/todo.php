@@ -1,6 +1,6 @@
 <?php
 app\assets\AppAsset::register($this);
-$this->title = "TODO APP";
+$this->title = "TODO APP by Tarasov Konstantin";
 ?>
 
 <section id="todoapp">
