@@ -1,6 +1,7 @@
 <?php
-
-require(__DIR__.DIRECTORY_SEPARATOR.'local.php');
+$path = __DIR__.DIRECTORY_SEPARATOR.'local.php';
+if (file_exists($path))
+    require($path);
 
 defined('MYSQL_USER') or define('MYSQL_USER', 'root');
 defined('MYSQL_PASS') or define('MYSQL_PASS', 'password');
